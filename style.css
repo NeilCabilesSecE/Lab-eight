@@ -1,0 +1,58 @@
+body {
+    background-color: #001f3f; /* Dark blue background */
+    color: silver; /* Silver text color for contrast */
+    font-family: 'Roboto', sans-serif; /* Use the imported Roboto font */
+    text-align: center; /* Center text and elements */
+    padding: 25px; /* Add some padding */
+}
+
+h1 {
+    margin-bottom: 30px; /* Space below the heading */
+}
+
+#Sports-Car-Container {
+    display: flex; /* Use flexbox for centering */
+    flex-direction: column; /* Align items in a column */
+    align-items: center; /* Center horizontally */
+    margin-bottom: 26px; /* Space below the container */
+}
+
+#Sports-Car-Container p {
+    margin: 0; /* Remove default margin */
+    font-size: 1.2em; /* Slightly larger font for readability */
+}
+
+select {
+    padding: 10px; /* Padding inside the select dropdown */
+    font-size: 1em; /* Font size for the dropdown */
+    border: 1px solid #03eeff; /* Cyan border for the dropdown */
+    background-color: #1100ff; /* Darkblue as primary color for the dropdown */
+    color: white; /* White text for the dropdown */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Change cursor to pointer for better UX */
+}
+
+select:hover {
+    background-color: #b30000; /* Darker red on hover */
+}
+
+#Car-details {
+    margin-top: 36px; /* Space above car details */
+}
+
+#The-car-image {
+    margin-top: 10px; /* Space above the image */
+    border: 3px solid white; /* White border around the image */
+    border-radius: 10px; /* Rounded corners for the image */
+}
+
+#The-car-description {
+    margin-top: 20px; /* Space above the description */
+    font-size: 1.1em; /* Slightly larger font for the description */
+} 
+
+#The-car-image {
+    display: none; /* Initially hidden */
+    width: 30px; /* Change this to a size that feels medium */
+    height: auto; /* Maintain aspect ratio */
+}

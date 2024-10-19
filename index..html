@@ -3,9 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>The sports car Select</title>
+    <link rel="Stylesheet" href="style.css"> <!-- link to your css -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
+
+    <div class="Container"></div>
+    <h1><u><b>Choose a sports car picture</b></u></h1>
+    <div id="Sports-Car-Container">
+        <p>Click on the "Pick a Car Tab bellow" For you to view a sports car to see it's picture and the description
+            (We only one have in stock for now friend, but we'll add some more soon.)
+        </p>
+    </div>
+
+    <select id="Select-sports-car">
+        <option value="">Pick a car</option>
+        <option value="Audi r8">Audi r8</option>
+
+    </select>
+
+     <!-- The details of the cars Section -->
+     <div id="Car-details" style="text-align: center; margin-top: 250px;">
+        <h2 id="The-car-name">Audi R8</h2>
+        <img src="Audi r8.jpg" alt="Audi R8" width="800" height="auto">
+        <img id="The-car-image" src="Audi R8.jpg" alt="Audi R8" style="display: none; width: 250px;">
+        <p id = "The-description-of-the-car">The Audi r8 is a stunning and high-performance sports car that is known for its sleek design.</p>
+    </div>
+</div>
+
+
+    <script src="script.js"></script>
     
 </body>
 </html>
